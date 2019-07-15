@@ -4,19 +4,44 @@
 	background-size: 100%;
 	height: 600px;
 	max-width: 1440px;
+	margin-top: -20px;
+	margin-left: -20px;
 }
 
-/*.a1{
-	font-size: 65px;
+input:focus{
+	background-color:white;
 }
-.a2{
-	font-size: 40px;
-	text-align: center;
-
+.verse-img{
+	align-content: center;
+	margin-left: 200px;
+	margin-bottom: 30px;
+	background-color: transparent;
 }
-.a3{
+.verse-content:hover{
 	font-size: 25px;
-}*/
+	text-decoration: underline;
+}
+
+.verse-text{
+	text-align: center;
+	font-size: 30px;
+	color: beige;
+	background-color: transparent;
+
+}
+
+.right li a:hover{
+text-decoration: underline;
+}
+.shop-hover:hover{
+	text-decoration: underline;
+	
+}
+
+.shop-online p a:hover{
+	text-decoration: underline;
+}
+
 li{
 	list-style: none;
 }
@@ -34,16 +59,27 @@ li{
     background:linear-gradient(#5E5E5E,#898989);
 
 }
+.navbar-items a,.verse-content{
+		color: white;
 
-.footer-div a{
+}
+
+.right li a{
 	color: blue;
+	padding-right: 5px;
+	border-right:thin solid #898989 ;
+	width: 400px;
 }
+
 .usa-flag{
-	background-image: url(assets/usa.png);
+	background-image: url(assets/usa.png) 50% 100% no-repeat;
+	/* border-right-style: none; */
+	background-size: 100%;
+
 }
+
 a{
 	text-decoration: none;
-	color: white;
 }
 
 main ul {
@@ -55,16 +91,17 @@ main ul {
 	float: right;
     padding-top: 1.5em;
     text-align: right;
-    font-size: .8334em;
+	font-size: .8334em;
+	margin-right: 50px;
 
 }
 .left{
 	margin-left: 80px;
 	float: left;
     clear: both;
-    width: 49%;
-    padding-top: 1.5em;
-    text-align: left;
+    /* width: 49%; */
+    /* padding-top: 1.5em; */
+    /* text-align: left; */
 	font-size: .8334em;
 }
 
@@ -75,14 +112,7 @@ main ul {
 	margin-top:-50px;
 
 }
-/*.footer-img1{
-	width: 320px;
-	height: auto;
-}*/
 
-/*footer{
-	max-width: 1000px;
-}*/
 .footer-div li,.copyright li{
 	display: inline-block;
 }
@@ -125,8 +155,8 @@ main ul {
 }
 .fa-search{
 	position: absolute;
-	top:215px;
-	right: 350px;
+	top:66px;
+	right: 373px;
 	color: white;
 	font-size: 13px;
 }
@@ -142,6 +172,7 @@ main ul {
 #global-nav{
 	display:block;
 	border-radius: 5px;
+	margin-top: 70px;
 
 }
 body{
