@@ -6,7 +6,7 @@
 	max-width: 1440px;
 }
 
-.a1{
+/*.a1{
 	font-size: 65px;
 }
 .a2{
@@ -16,7 +16,7 @@
 }
 .a3{
 	font-size: 25px;
-}
+}*/
 li{
 	list-style: none;
 }
@@ -36,7 +36,10 @@ li{
 }
 
 .footer-div a{
-	color: black;
+	color: blue;
+}
+.usa-flag{
+	background-image: url(assets/usa.png);
 }
 a{
 	text-decoration: none;
