@@ -73,7 +73,6 @@ li{
 
 .usa-flag{
 	background-image: url(assets/usa.png) 50% 100% no-repeat;
-	/* border-right-style: none; */
 	background-size: 100%;
 
 }
@@ -99,15 +98,11 @@ main ul {
 	margin-left: 80px;
 	float: left;
     clear: both;
-    /* width: 49%; */
-    /* padding-top: 1.5em; */
-    /* text-align: left; */
 	font-size: .8334em;
 }
 
 .copyright{
-/*	display: flex;
-*/	font-size: .8334em;
+	font-size: .8334em;
 	position: relative;
 	margin-top:-50px;
 
@@ -116,10 +111,27 @@ main ul {
 .footer-div li,.copyright li{
 	display: inline-block;
 }
+
+.promo1{
+	background: url(assets/promo_iphone5s.jpg) 50% 100% no-repeat;
+	background-size: 100%;
+	background-position: center;
+	z-index:1000;
+}
+.promo2{
+	background:url(assets/promo_iphone5c.jpg);
+	background-size: cover;
+}
+.promo3{
+	background: url(assets/promo_30_years.jpg);
+}
+.promo4{
+	background: url(assets/promo_supplier_responsibility.jpg);
+}
 .promos{
 	width: 364px;
 	height: 200px;
-	display: flex;
+	/* display: flex; */
 }
 .promos ul{
 	padding: 0;
@@ -128,8 +140,6 @@ main ul {
 
 .promos li{
 	    display: inline;
-/*	    width:25%; 
-*/
 }
 .navbar ul {
     overflow: hidden;
