@@ -1,0 +1,202 @@
+.main-section{
+	background-color: #08c;
+	background: url(assets/your_verse_hero_2x.jpg) 50% 100% no-repeat;
+	background-size: 100%;
+	height: 600px;
+	max-width: 1440px;
+	margin-top: -20px;
+	margin-left: -20px;
+}
+
+input:focus{
+	background-color:white;
+}
+.verse-img{
+	align-content: center;
+	margin-left: 200px;
+	margin-bottom: 30px;
+	background-color: transparent;
+}
+.verse-content:hover{
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+.verse-text{
+	text-align: center;
+	font-size: 30px;
+	color: beige;
+	background-color: transparent;
+
+}
+
+.right li a:hover{
+text-decoration: underline;
+}
+.shop-hover:hover{
+	text-decoration: underline;
+	
+}
+
+.shop-online p a:hover{
+	text-decoration: underline;
+}
+
+li{
+	list-style: none;
+}
+
+
+.navbar-items
+{
+	display: table-cell;
+	height: 30px;
+    background-color:#5E5E5E;
+    width: 100px;
+    overflow: hidden;
+    font-size: 20px;
+    border-right: 1px solid rgb(77, 76, 76);
+    background:linear-gradient(#5E5E5E,#898989);
+
+}
+.navbar-items a,.verse-content{
+		color: white;
+
+}
+
+.right li a{
+	color: blue;
+	padding-right: 5px;
+	border-right:thin solid #898989 ;
+	width: 400px;
+}
+
+.usa-flag{
+	background-image: url(assets/usa.png) 50% 100% no-repeat;
+	background-size: 100%;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+main ul {
+    list-style-type: none;
+    margin: 200px 20px auto 0;
+  
+}
+.right{
+	float: right;
+    padding-top: 1.5em;
+    text-align: right;
+	font-size: .8334em;
+	margin-right: 50px;
+
+}
+.left{
+	margin-left: 80px;
+	float: left;
+    clear: both;
+	font-size: .8334em;
+}
+
+.copyright{
+	font-size: .8334em;
+	position: relative;
+	margin-top:-50px;
+
+}
+
+.footer-div li,.copyright li{
+	display: inline-block;
+}
+
+.promo {
+    width: 100%;
+    height: 100%;
+}
+.sec.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 200px;
+}
+.sec div{
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: auto;
+    margin: 0;
+    padding: 0;
+    border: 0.5px solid white;
+}
+.sec img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.sec a:nth-child(1) {
+    background-image: url(assets/promo_iphone5s.jpg);
+}
+.sec a:nth-child(2) {
+    background-image: url(assets/promo_iphone5c.jpg);
+}
+.sec a:nth-child(3) {
+    background-image: url(assets/promo_30_years.jpg);
+}
+.sec a:nth-child(4) {
+    background-image: url(assets/promo_supplier_responsibility.jpg);
+}
+.navbar ul {
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+    height: 100%;
+}
+
+.navbar{
+	margin-left: 150px;
+	align-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    width: 100%;
+}
+
+.center-container{
+	align-content: center;
+	text-align: center;
+	margin-top: 100px;
+}
+.fa-search{
+	position: absolute;
+	top:66px;
+	right: 373px;
+	color: white;
+	font-size: 13px;
+}
+.search-input{
+	padding: 0;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-left: 15px;
+	background-color: #6F6F6F;
+	border-color: #6F6F69;
+	position: relative;
+}
+#global-nav{
+	display:block;
+	border-radius: 5px;
+	margin-top: 70px;
+
+}
+body{
+overflow-x:hidden
+}
+
+.footer-img{
+	width: 335px;
+	height: auto;
+}
