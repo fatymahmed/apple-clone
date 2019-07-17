@@ -112,34 +112,41 @@ main ul {
 	display: inline-block;
 }
 
-.promo1{
-	background: url(assets/promo_iphone5s.jpg) 50% 100% no-repeat;
-	background-size: 100%;
-	background-position: center;
-	z-index:1000;
+.promo {
+    width: 100%;
+    height: 100%;
 }
-.promo2{
-	background:url(assets/promo_iphone5c.jpg);
-	background-size: cover;
+.sec.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 200px;
 }
-.promo3{
-	background: url(assets/promo_30_years.jpg);
+.sec div{
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: auto;
+    margin: 0;
+    padding: 0;
+    border: 0.5px solid white;
 }
-.promo4{
-	background: url(assets/promo_supplier_responsibility.jpg);
-}
-.promos{
-	width: 364px;
-	height: 200px;
-	/* display: flex; */
-}
-.promos ul{
-	padding: 0;
-	margin: 0;
-}
+.sec img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 
-.promos li{
-	    display: inline;
+}
+.sec a:nth-child(1) {
+    background-image: url(assets/promo_iphone5s.jpg);
+}
+.sec a:nth-child(2) {
+    background-image: url(assets/promo_iphone5c.jpg);
+}
+.sec a:nth-child(3) {
+    background-image: url(assets/promo_30_years.jpg);
+}
+.sec a:nth-child(4) {
+    background-image: url(assets/promo_supplier_responsibility.jpg);
 }
 .navbar ul {
     overflow: hidden;
