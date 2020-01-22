@@ -1,5 +1,6 @@
 # apple-clone
-a clone of apple's old webpage
+a clone of apple's old [webpage](https://fatymahmed.github.io/apple-clone/
+)
 
 Used:
 - HTML
@@ -10,6 +11,5 @@ Used:
 
 
 # The Website
-Follow this link to access the Website 
-https://fatymahmed.github.io/apple-clone/
+Follow this [link](https://fatymahmed.github.io/apple-clone/) to access the Website 
 
